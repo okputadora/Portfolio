@@ -9,6 +9,10 @@
 a{
   text-decoration: none;
 }
+a:visited{
+  text-decoration: none;
+  color: black;
+}
 
 h2{
   margin-left: 20px;
@@ -58,7 +62,11 @@ h2{
   justify-content: center;
   align-items: center;
   width: 100%;
+  font-size: 20px;
 }
 button{
   margin: 0 20px 0 20px;
+  font-size: 40px;
+  border: none;
+  background-color: white;
 }
