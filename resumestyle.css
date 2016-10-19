@@ -55,6 +55,10 @@ a:visited{
   opacity: 1;
 }
 
+button:focus{
+  outline: none;
+}
+
 .main{
   display:flex;
   flex-direction: column;
@@ -140,4 +144,13 @@ p{
 
 #contact{
   background-color: #CCC8B8;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-list{
+  display flex;
+  justify-content: center;
+  align-items: stretch;
 }
