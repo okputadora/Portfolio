@@ -1,5 +1,6 @@
 *{
-  border: 1px solid red !important;
+  /*Debugging*/
+  /*border: 1px solid red !important;*/
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -62,12 +63,12 @@ a:visited{
 .main-container{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  height: 800px;
+  height: 900px;
   width: 100%;
   z-index: 1;
 }
 #home{
+  justify-content: center;
   background-image: url(https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/581545_10151604288997479_735358217_n.jpg?oh=8a161ec6ac54b53f9ede8a25d4642ef8&oe=58974441);
   background-position: center;
   background-repeat: no-repeat;
@@ -95,4 +96,48 @@ a:visited{
   color: white;
   margin: 5px;
   font-size: 30px;
+  opacity: .8;
+  margin: 10px;
+}
+.button-menu > a:hover{
+  opacity: 1;
+}
+
+#projects{
+  background-color: #FFF8E2;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.title{
+  margin-top: 80px;
+}
+
+.project-container{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin-top: 80px;
+}
+
+
+.project-name{
+  text-align: center;
+}
+
+.screenshot{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+p{
+  color: black;
+  text-align: left;
+  max-width: 602px;
+}
+
+#contact{
+  background-color: #CCC8B8;
 }
